@@ -1,0 +1,120 @@
+.top-title {
+    color: blue;
+}
+
+.bottom-title {
+    color: lightgreen;
+}
+
+body {
+    background: #eef0f5;
+    font-family: Arial, sans-serif;
+}
+
+.top-title, .bottom-title {
+    width: 60%;
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(75, 50, 201, 0.1);
+}
+
+.form-container {
+    width: 60%;
+    margin: auto;
+    background: linear-gradient(to right, #ffe6f2, #fcddee);
+    padding: 0;
+    border-radius: 10px;
+}
+
+.header {
+    background: linear-gradient(to right, #b300ff, #ff4dc4);
+    padding: 18px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.col {
+    flex: 1;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 60px;
+}
+
+.inline {
+    display: flex;
+    gap: 35px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 95%;
+    margin: auto;
+    background: white;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+table input {
+    width: 90%;
+    padding: 6px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding: 20px;
+}
+
+.reset-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #e6e6e6;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #d51dfc;
+    color: white;
+}
